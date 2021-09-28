@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #161616;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 2%;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 30px;
+}
+
+nav{
+    width: 100%;
+    max-width: 40%;
+    text-align: right;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 30px;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+
+nav a:hover, a.active{
+    background-color: #161616;
+}
+
+.extra{
+    position: absolute;
+    right: -650px;
+    top: -800px;
+    width: 1480px;
+    height: 1480px;
+    border-radius:50%;
+    background-color: #e51e2a;
+    z-index: 1;
+}
+
+.extra .img-1{
+    width: 175px;
+    position: absolute;
+    right: 1000px;
+    top: 940px;
+}
+
+.extra .img-2{
+    width: 100px;
+    position: absolute;
+    right: 930px;
+    top: 1160px;
+}
+
+.extra .img-3{
+    width: 150px;
+    position: absolute;
+    right: 1110px;
+    top: 1160px;
+}
+
+.center .conteudo{
+    color: #fff;
+    font-size: 30px;
+}
+
+.conteudo h1{
+    font-weight: 900;
+    margin-top: 140px;
+}
+
+.conteudo p{
+    margin: 0px 0;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 550px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.conteudo button{
+    border: 0;
+    background-color: #e51e2a;
+    color: white;
+    border-radius: 40px;
+    width: 130px;
+    height: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.social-media{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 50%;
+
+}
+
+.social-media a{
+    display: inline-block;
+    background-color: #222;
+    border-radius: 100%;
+    margin: 30px 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.img-twitter{
+    padding-top: 5px;
+}
+
+.social-media img{
+    padding: 10px 10px;
+    filter: invert(1);
+}
+
+.social-media a:hover{
+    transform: translateY(-15px);
+    background-color: #e51e2a;
+}
